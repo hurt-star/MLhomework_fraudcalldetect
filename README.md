@@ -4,6 +4,8 @@
 
 使用 AI 生成项目主要代码，原始数据集为课程提供。
 
+原项目在 Cloud Studio 内完成，链接： https://cloudstudio.net/a/35108604608548864?channel=share&sharetype=URL
+
 ## 核心特点
 
 - **双任务分类**：二分类（是否诈骗）+ 多分类（诈骗类型识别）
