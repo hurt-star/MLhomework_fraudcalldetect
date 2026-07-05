@@ -1,0 +1,87 @@
+{
+  "original": {
+    "description": "原始测试集",
+    "total_samples": 2548,
+    "fraud_samples": 1387,
+    "binary": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "fraud_type": {
+      "accuracy": 0.7678442682047585,
+      "precision": 0.7647843249290597,
+      "recall": 0.7678442682047585,
+      "f1": 0.7644832286072674
+    }
+  },
+  "trust": {
+    "description": "信任策略增强",
+    "total_samples": 2548,
+    "fraud_samples": 1387,
+    "binary": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "fraud_type": {
+      "accuracy": 0.6993511175198269,
+      "precision": 0.744777360238254,
+      "recall": 0.6993511175198269,
+      "f1": 0.6703757851581605
+    }
+  },
+  "urgency": {
+    "description": "紧迫感策略增强",
+    "total_samples": 2548,
+    "fraud_samples": 1387,
+    "binary": {
+      "accuracy": 0.999607535321821,
+      "precision": 0.9996078730711139,
+      "recall": 0.999607535321821,
+      "f1": 0.9996075490301343
+    },
+    "fraud_type": {
+      "accuracy": 0.7627974044700793,
+      "precision": 0.763061313785537,
+      "recall": 0.7627974044700793,
+      "f1": 0.7541566660812139
+    }
+  },
+  "emotional": {
+    "description": "情感操纵策略增强",
+    "total_samples": 2548,
+    "fraud_samples": 1387,
+    "binary": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "fraud_type": {
+      "accuracy": 0.7534246575342466,
+      "precision": 0.766171295383102,
+      "recall": 0.7534246575342466,
+      "f1": 0.7475162387466362
+    }
+  },
+  "combined": {
+    "description": "三策略组合增强",
+    "total_samples": 2548,
+    "fraud_samples": 1387,
+    "binary": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "fraud_type": {
+      "accuracy": 0.6935832732516222,
+      "precision": 0.7232533711159377,
+      "recall": 0.6935832732516222,
+      "f1": 0.6643330929446278
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "binary_classification": {
+    "total": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0
+    },
+    "per_class": {
+      "非诈骗": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1161.0
+      },
+      "诈骗": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1387.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        1161,
+        0
+      ],
+      [
+        0,
+        1387
+      ]
+    ]
+  },
+  "fraud_type_classification": {
+    "total": {
+      "accuracy": 0.6935832732516222,
+      "precision": 0.7232533711159377,
+      "recall": 0.6935832732516222,
+      "f1-score": 0.6643330929446278
+    },
+    "macro_avg": {
+      "precision": 0.7025941903453938,
+      "recall": 0.5641541220476081,
+      "f1-score": 0.5766564959398502,
+      "support": 1387.0
+    },
+    "per_class": {
+      "客服诈骗": {
+        "precision": 0.8029850746268656,
+        "recall": 0.558091286307054,
+        "f1-score": 0.6585067319461444,
+        "support": 482.0
+      },
+      "银行诈骗": {
+        "precision": 0.5282758620689655,
+        "recall": 0.9598997493734336,
+        "f1-score": 0.6814946619217082,
+        "support": 399.0
+      },
+      "钓鱼诈骗": {
+        "precision": 0.25,
+        "recall": 0.009615384615384616,
+        "f1-score": 0.018518518518518517,
+        "support": 104.0
+      },
+      "投资诈骗": {
+        "precision": 0.983957219251337,
+        "recall": 0.9064039408866995,
+        "f1-score": 0.9435897435897436,
+        "support": 203.0
+      },
+      "绑架诈骗": {
+        "precision": 1.0,
+        "recall": 0.3150684931506849,
+        "f1-score": 0.4791666666666667,
+        "support": 73.0
+      },
+      "身份盗窃": {
+        "precision": 0.35294117647058826,
+        "recall": 0.2,
+        "f1-score": 0.2553191489361702,
+        "support": 30.0
+      },
+      "彩票诈骗": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 96.0
+      }
+    },
+    "by_difficulty": {
+      "easy": {
+        "accuracy": 0.6144578313253012,
+        "precision": 0.696815834767642,
+        "recall": 0.6144578313253012,
+        "f1_score": 0.5821664714912123,
+        "precision_macro": 0.5908163265306123,
+        "recall_macro": 0.5697278911564626,
+        "f1_score_macro": 0.5355652099838146,
+        "support": 83
+      },
+      "medium": {
+        "accuracy": 0.6748878923766816,
+        "precision": 0.7581174419400554,
+        "recall": 0.6748878923766816,
+        "f1_score": 0.664646114744527,
+        "precision_macro": 0.663759411713005,
+        "recall_macro": 0.572528835011498,
+        "f1_score_macro": 0.5720351531821224,
+        "support": 446
+      },
+      "hard": {
+        "accuracy": 0.710955710955711,
+        "precision": 0.7257735192517801,
+        "recall": 0.710955710955711,
+        "f1_score": 0.6742826976675154,
+        "precision_macro": 0.7461880691694357,
+        "recall_macro": 0.580504817563581,
+        "f1_score_macro": 0.6040749144781109,
+        "support": 858
+      }
+    }
+  }
+}

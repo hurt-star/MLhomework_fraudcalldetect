@@ -1,0 +1,26 @@
+
+.idea/
+*.class
+*.java~
+.history/
+*.swp
+.pytest_cache/
+__pycache__/
+.scratch
+*.beam
+.DS_Store
+venv/
+generated/
+
+# 模型权重文件 (过大，不应提交)
+*.pt
+
+# 模型权重文件过大
+fraud_detection/output/models/
+
+# 增强脚本生成的对比文件
+test_comparison.xlsx
+
+# 无关文件
+nosleep
+nosleep.md

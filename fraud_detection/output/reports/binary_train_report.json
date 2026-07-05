@@ -1,0 +1,49 @@
+{
+  "task": "二分类 (Binary Classification)",
+  "curriculum_learning": true,
+  "epochs_per_stage": {
+    "stage1": 1,
+    "stage2": 1,
+    "stage3": 1
+  },
+  "eval_ratio": 0.1,
+  "stage_metrics": {
+    "stage1": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "stage2": {
+      "precision": 0.998422712933754,
+      "recall": 0.9968503937007874,
+      "f1": 0.9976359338061466
+    },
+    "stage3": {
+      "precision": 0.998639455782313,
+      "recall": 1.0,
+      "f1": 0.9993192648059904
+    }
+  },
+  "final_metrics": {
+    "total": {
+      "accuracy": 0.999266862170088,
+      "precision": 0.9992678596365233,
+      "recall": 0.999266862170088,
+      "f1-score": 0.9992668205476607
+    },
+    "per_class": {
+      "非诈骗": {
+        "precision": 1.0,
+        "recall": 0.9984126984126984,
+        "f1-score": 0.9992057188244639,
+        "support": 630.0
+      },
+      "诈骗": {
+        "precision": 0.998639455782313,
+        "recall": 1.0,
+        "f1-score": 0.9993192648059904,
+        "support": 734.0
+      }
+    }
+  }
+}
