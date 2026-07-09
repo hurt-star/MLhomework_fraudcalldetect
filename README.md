@@ -193,3 +193,7 @@ python main.py --mode predict --interactive
 ## 参考文献
 
 1. *Fraud-R1: A Multi-Round Phone Scam Dataset with Social Engineering Manipulations.* Findings of ACL 2025. [论文链接](https://aclanthology.org/2025.findings-acl.226/)
+
+## 声明
+
+本项目为个人课程作业，仅用于日常学习交流，严禁用于抄袭或其他违法活动。
