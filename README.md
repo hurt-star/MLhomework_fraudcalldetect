@@ -40,8 +40,8 @@
 │   ├── evaluate_all.py                # 批量评估 5 个测试集
 │   ├── count_diff.py                  # 测试集数据统计
 │   ├── requirements.txt               # Python 依赖
-│   ├── output/reports/                # 训练/评估报告（JSON + TXT + PNG）
-│   └── output-2/                      # 批量评估报告（5个测试集 × JSON + TXT + 汇总）
+│   ├── output/reports/                # 实验1结果，训练/测试评估报告
+│   └── output-2/                      # 实验2结果，各测试集评估报告
 │       ├── original/
 │       ├── trust/
 │       ├── urgency/
